@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Bedor Bytes
-email:
+# email:
 description: >- # this means to ignore newlines until "baseurl:"
   Experiments etc about AI and other stuff.
 
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+# baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "tombedor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+# twitter_username: 
 github_username:  tombedor
 
 # Build settings
