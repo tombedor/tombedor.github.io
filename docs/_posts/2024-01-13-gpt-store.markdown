@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Questionable Value of the OpenAI GPT Store"
-date:   2024-01-13 16:45:04 -0800
+date:   2024-01-12 16:45:04 -0800
 categories: LLM's
 ---
 

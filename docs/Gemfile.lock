@@ -263,6 +263,7 @@ GEM
       unf_ext
     unf_ext (0.0.9.1)
     unicode-display_width (1.8.0)
+    webrick (1.8.1)
 
 PLATFORMS
   aarch64-linux
@@ -278,6 +279,7 @@ DEPENDENCIES
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.22
