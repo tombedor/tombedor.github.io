@@ -47,7 +47,7 @@ Experienced ML Engineering Manager with a proven track record in leading teams t
 
 ## Open Source
 - **MemGPT**: Contributor to [MemGPT](https://github.com/cpacker/MemGPT), enhancing agent function capabilities.
-- **YouBot**: Author of YouBot, an AI personal assistant with long term memory
+- **YouBot**: Author of [YouBot](https://github.com/tombedor/youbot/tree/main), an AI personal assistant with long term memory
 
 ---
 
