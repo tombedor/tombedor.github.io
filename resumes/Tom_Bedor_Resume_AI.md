@@ -6,25 +6,23 @@ Experienced ML generalist and platform builder. Passionate about AI and seeking 
 ---
 
 ## Employment Information
-### Block (formerly Square)
-**03/2017 - Present**
 
-#### _ML Engineering Manager, Rules Engine_
+#### Block (formerly Square) _ML Engineering Manager, Rules Engine_
 **10/2023 - Present**
 - Founded and lead a team of 3 engineers to deploy a new rules engine across Block, enhancing system migration and automation efficiency. Leveraged LLM's to automate migration and handle support request
 - **Technologies**: Kotlin, AWS, LangChain, Python, LLM's
 
-#### _ML Engineering Manager, Underwriting and Credit_
+#### Block _ML Engineering Manager, Underwriting and Credit_
 **01/2022 - 10/2023**
 - Spearheaded a team of 6, managing ML for CashApp's credit products, contributing to over $300M in monthly originations.
 - **Key Achievements**: Developed self-service ML pipelines; integrated a rules engine to streamline modeler productivity.
 
-#### _Software Engineer, Machine Learning Infrastructure_
+#### Block _Software Engineer, Machine Learning Infrastructure_
 **01/2019 - 01/2022**
 - Transformed Risk ML platform into a general ML platform. Built self service onboarding. Number of integrations went from ~20 to 78. Operated services in the critical path of most business critical evaluations (payments).
 - **Technologies**: Java, MySQL, Google Cloud, AWS Cloud
 
-#### _Senior Data Engineer, Data Infrastructure_
+#### Block _Data Engineer, Data Infrastructure_
 **03/2017 - 01/2019**
 - Rewrote data warehouse permissions and provisioning layer while migrating company to Snowflake.
 - **Technologies**: Ruby, Snowflake, Vertica, Google Cloud
