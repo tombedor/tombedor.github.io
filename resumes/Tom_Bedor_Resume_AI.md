@@ -1,5 +1,4 @@
 # Thomas Bedor
-**(763) 439-8856** • **[tombedor@gmail.com](mailto:tombedor@gmail.com)**  
 **San Francisco, CA**
 
 ---
