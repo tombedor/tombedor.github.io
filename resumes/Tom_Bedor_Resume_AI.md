@@ -29,7 +29,7 @@ Experienced ML Engineering Manager with a proven track record in leading teams t
 
 #### _Senior Data Engineer, Data Infrastructure_
 **03/2017 - 01/2019**
-- Managed data warehouse transition from Vertica to Snowflake, enhancing data accessibility and scalability.
+- Rewrote data warehouse permissions and provisioning layer while migrating company to Snowflake.
 - **Technologies**: Ruby, Snowflake, Vertica, Google Cloud
 
 ### HealthLoop
