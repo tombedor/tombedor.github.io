@@ -20,12 +20,12 @@ Experienced ML generalist and platform builder. Passionate about AI and seeking 
 #### _Software Engineer, Machine Learning Infrastructure, Block_
 **01/2019 - 01/2022**
 - Transformed Risk ML platform into a general ML platform. Built self service onboarding. Number of integrations went from ~20 to 78. Operated services in the critical path of most business critical evaluations (payments).
-- **Technologies**: Java, MySQL, Google Cloud, AWS Cloud
+- **Technologies**: Java, MySQL, GCP, AWS
 
 #### _Data Engineer, Data Infrastructure, Block_
 **03/2017 - 01/2019**
 - Rewrote data warehouse permissions and provisioning layer while migrating company to Snowflake.
-- **Technologies**: Ruby, Snowflake, Vertica, Google Cloud
+- **Technologies**: Ruby, Snowflake, Vertica, GCP
 
 #### _Software Engineer, HealthLoop_
 **08/2014 – 03/2017**
@@ -35,7 +35,7 @@ Experienced ML generalist and platform builder. Passionate about AI and seeking 
 
 ## Skills
 - **Programming Languages**: Kotlin, Python, Java, Ruby
-- **Technologies**: AWS, Google Cloud, Snowflake, ML Libraries (Autogen, MemGPT, Langchain)
+- **Technologies**: AWS, GCP, Snowflake, ML Libraries (Autogen, MemGPT, Langchain), Terraform, MySQL
 - **Specialties**: Machine Learning Engineering, Data Infrastructure, System Migration
 
 ---
