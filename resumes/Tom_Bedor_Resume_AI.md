@@ -2,10 +2,7 @@
 **San Francisco, CA**
 
 ---
-
-## Professional Summary
 Experienced ML generalist and platform builder. Passionate about AI and seeking opportunties to make it more available and more capable.
-
 ---
 
 ## Employment Information
