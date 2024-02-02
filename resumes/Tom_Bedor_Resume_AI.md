@@ -25,7 +25,7 @@ Experienced ML Engineering Manager with a proven track record in leading teams t
 
 #### _Software Engineer, Machine Learning Infrastructure_
 **01/2019 - 01/2022**
-- Part of the ML platform team, focusing on developing and deploying production ML workloads, significantly improving platform stability.
+- Transformed Risk ML platform into a general ML platform. Built self service onboarding. Number of integrations went from ~20 to 78. Operated services in the critical path of most business critical evaluations (payments).
 - **Technologies**: Java, React JS, MySQL, Google Cloud, AWS Cloud
 
 #### _Senior Data Engineer, Data Infrastructure_
@@ -39,15 +39,6 @@ Experienced ML Engineering Manager with a proven track record in leading teams t
 
 ---
 
-## Education
-### University of Minnesota, 2013
-**Master of Science in Bioinformatics and Computational Biology**
-
-### University of Minnesota, 2010
-**Bachelor of Science in Neuroscience**
-
----
-
 ## Skills
 - **Programming Languages**: Kotlin, Python, Java, Ruby
 - **Technologies**: AWS, Google Cloud, Snowflake, ML Libraries (Autogen, MemGPT, Langchain)
@@ -55,6 +46,15 @@ Experienced ML Engineering Manager with a proven track record in leading teams t
 
 ---
 
-## Additional Contributions
-- **Open Source**: Contributor to [MemGPT](https://github.com/cpacker/MemGPT), enhancing agent function capabilities.
-- **Blog**: Writer at [Tom Bedor's AI Insights](https://tombedor.github.io/), discussing AI trends and projects.
+## Open Source
+- **MemGPT**: Contributor to [MemGPT](https://github.com/cpacker/MemGPT), enhancing agent function capabilities.
+- **YouBot**: Author of YouBot, an AI personal assistant with long term memory
+
+---
+
+## Education
+### University of Minnesota, 2013
+**Master of Science in Bioinformatics and Computational Biology**
+
+### University of Minnesota, 2010
+**Bachelor of Science in Neuroscience**
