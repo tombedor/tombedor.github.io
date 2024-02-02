@@ -4,7 +4,7 @@
 ---
 
 ## Professional Summary
-Experienced ML Engineering Manager with a proven track record in leading teams to develop innovative machine learning solutions at Block. Passionate about leveraging AI to drive business growth and efficiency. Seeking challenging opportunities in AI-focused companies to further advance cutting-edge ML applications.
+Experienced ML generalist and platform builder. Passionate about AI and seeking opportunties to make it more available and more capable.
 
 ---
 
