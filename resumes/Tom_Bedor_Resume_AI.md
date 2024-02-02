@@ -1,7 +1,7 @@
 # Thomas Bedor
 **San Francisco, CA**
 
-Experienced ML generalist and platform builder. Passionate about AI and seeking opportunties to make it more available and more capable.
+Experienced ML generalist and platform builder. Passionate about AI and seeking opportunities to make it more available and more capable.
 
 ---
 
