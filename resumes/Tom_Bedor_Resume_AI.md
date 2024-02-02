@@ -14,8 +14,8 @@ Experienced ML Engineering Manager with a proven track record in leading teams t
 
 #### _ML Engineering Manager, Rules Engine_
 **10/2023 - Present**
-- Founded and lead a team of 3 engineers to deploy a new rules engine across Block, enhancing system migration and automation efficiency.
-- **Technologies**: Kotlin, AWS, LLMs (Autogen, MemGPT, Langchain libraries)
+- Founded and lead a team of 3 engineers to deploy a new rules engine across Block, enhancing system migration and automation efficiency. Leveraged LLM's to automate migration and handle support request
+- **Technologies**: Kotlin, AWS, LangChain, Python, LLM's
 
 #### _ML Engineering Manager, Underwriting and Credit_
 **01/2022 - 10/2023**
@@ -25,7 +25,7 @@ Experienced ML Engineering Manager with a proven track record in leading teams t
 #### _Software Engineer, Machine Learning Infrastructure_
 **01/2019 - 01/2022**
 - Transformed Risk ML platform into a general ML platform. Built self service onboarding. Number of integrations went from ~20 to 78. Operated services in the critical path of most business critical evaluations (payments).
-- **Technologies**: Java, React JS, MySQL, Google Cloud, AWS Cloud
+- **Technologies**: Java, MySQL, Google Cloud, AWS Cloud
 
 #### _Senior Data Engineer, Data Infrastructure_
 **03/2017 - 01/2019**
