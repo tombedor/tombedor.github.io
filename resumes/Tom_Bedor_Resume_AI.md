@@ -47,8 +47,5 @@ Experienced ML generalist and platform builder. Passionate about AI and seeking 
 ---
 
 ## Education
-### University of Minnesota, 2013
-**Master of Science in Bioinformatics and Computational Biology**
-
-### University of Minnesota, 2010
-**Bachelor of Science in Neuroscience**
+### University of Minnesota
+**MS in Bioinformatics and Computational Biology and BS in Neuroscience**
