@@ -15,7 +15,7 @@ It's deployed in [Google Apps Script](https://www.google.com/script/start/), a s
 
 Here's the code, also [available in Github](https://github.com/tombedor/inbox/tree/main):
 
-```
+```js
 HIDDEN_LABEL = GmailApp.getUserLabelByName('hidden')
 SURFACED_LABEL = GmailApp.getUserLabelByName('surfaced')
 
