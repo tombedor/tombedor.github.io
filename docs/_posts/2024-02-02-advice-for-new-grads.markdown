@@ -25,7 +25,7 @@ The first job is often the most difficult one to get. Be persistent, don’t get
 In your resume and interviews, your goal is to convey enthusiasm, willingness to learn, and humility. Don’t try to compensate for the fact you don’t have any experience. That is fine, you have to start somewhere!
 
 ## Getting interviews
-The first filtering step is a filter on resumes. This will either be automated or done by someone non-technical. There will typically be an intro call with a non-technical recruiter.
+The first filtering step is a filter on resumes. This will often either be automated or done by someone non-technical. There will typically be an intro call with a non-technical recruiter.
 
 Resume referrals get you past this first filter. **Talk to people**. Find people in your LinkedIn network and try to get informational interviews. Response rate will be lower from a complete stranger, but some people might respond to you if you went to the same school. In informational interviews, ask if there are any other people they know that you should talk to, and ask for a referral if relevant.
 
