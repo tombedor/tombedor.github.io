@@ -7,7 +7,7 @@ categories: career
 
 This is a brief overview of my advice for new grads and junior software engineers. I'm been in the industry for about 8 years, and worked my way into engineering without a computer science degree. I've worked in both startups and medium-sized companies over the past 8 years.
 
-As is the case with lots of tech writing, my advice will be skewed towards working in the bay area, without needing visa sponsorship. Location and residency status are major factors to think about.
+As is the case with lots of tech writing, my advice will be skewed towards working in the San Francisco bay area, without needing visa sponsorship. Location and residency status are major factors to think about.
 
 Other engineers with similar levels of experience as mine will disagree with some or all of it.
 
