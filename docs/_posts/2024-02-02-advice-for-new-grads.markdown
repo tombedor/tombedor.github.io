@@ -128,7 +128,7 @@ Advice differs here, but I would not care too much about pay so long as you can 
 
 [Money Stuff](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine) is a great column about business, finance, and tech. You can get the email newsletter for free.
 
-[^1]: There's an evergreen, tedious debate on what constitutes a "tech" company. My definition is "A company whose primary products are software or hardware, OR a company seeking to disrupt a traditional field with software." E.g. LegalZoom is a legal services company, but I consider them a tech company,
+[^1]: There's an evergreen, tedious debate on what constitutes a "tech" company. My definition is "A company whose primary products are software or hardware, OR a company seeking to disrupt a traditional field with software." E.g. LegalZoom is a legal services company, but I consider them a tech company.
 [^2]: This is possibly also the case for senior engineers.
 [^3]: Specifically, non-public companies, whose stock does not trade on stock exchanges.
 [^4]: The exception being giant “startups” that actually make money, e.g. Stripe as of Feb 1, 2023. But even then the timing of when you can sell your shares can be very uncertain.
