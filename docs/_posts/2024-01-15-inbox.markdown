@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Simulating Google Inbox with Google Apps Script"
+date:   2024-01-15 16:45:04 -0800
+categories: Google Graveyard
+---
+
+Like many others, I still mourn the loss of [Google Inbox](https://en.wikipedia.org/wiki/Inbox_by_Gmail), perhaps the second most missed product in the [Google Graveyard](https://killedbygoogle.com).
+
+I've made various attempts at replicating the functionality, but have landed on a relatively [simple script](https://github.com/tombedor/inbox). 
+
+Using two labels it creates ("hidden", and "surfaced"), it hides emails in the archive temporarily, and resurfaces them once a day. The pesky unread icon still shows up in the labels tab, but it's the closest I've come to replicating my beloved Inbox setup.
