@@ -1,0 +1,3 @@
+- on buying enterprise software
+- on having a dog
+- 
