@@ -5,7 +5,9 @@ date:   2024-02-02 16:45:04 -0800
 categories: career
 ---
 
-This is a brief overview of my advice for new grads and junior engineers. I managed to work my way into the software industry without a computer science degree, and worked in both startups and medium-sized companies over the past 8 years.
+This is a brief overview of my advice for new grads and junior software engineers. I'm been in the industry for about 8 years, and worked my way into engineering without a computer science degree. I've worked in both startups and medium-sized companies over the past 8 years.
+
+As is the case with lots of tech writing, my advice will be skewed towards working in the bay area, without needing visa sponsorship. Location and residency status are major factors to think about.
 
 Other engineers with similar levels of experience as mine will disagree with some or all of it.
 
@@ -17,7 +19,7 @@ In your resume and interviews, your goal is to convey enthusiasm, willingness to
 ## Getting interviews
 The first filtering step is a filter on resumes. This will either be automated or done by someone non-technical. There will typically be an intro call with a non-technical recruiter.
 
-Resume referrals get you past this first filter. *Talk to people*. Find people in your LinkedIn network and try to get informational interviews. Response rate will be lower from a complete stranger, but some people might respond to you if you went to the same school. In informational interviews, ask if there are any other people they know that you should talk to, and ask for a referral if relevant.
+Resume referrals get you past this first filter. **Talk to people**. Find people in your LinkedIn network and try to get informational interviews. Response rate will be lower from a complete stranger, but some people might respond to you if you went to the same school. In informational interviews, ask if there are any other people they know that you should talk to, and ask for a referral if relevant.
 
 In general, people are more willing to take these calls than many junior candidates assume. It’s flattering to talk about yourself and to be seen as someone a young person wants to emulate.
 
@@ -40,7 +42,7 @@ In Q/A formats (ie non-coding screens), the key is to be responsive to questions
 The generic interview formats are:
 
 ### Coding screen
-*The most important interview format for jr engineers is the coding screen*. Practice them! I use HackerRank when I interview, but there are many similar platforms. *Put more time into practicing these than the time practicing all other interview formats combined.*
+**The most important interview format for jr engineers[^1] is the coding screen**. Practice them! I use HackerRank when I interview, but there are many similar platforms. *Put more time into practicing these than the time practicing all other interview formats combined.*
 
 When practicing, work on not only solving the problem, but communicating what you are thinking about. It is ok to stop and think, but when pausing talk about what you are puzzling through, e.g. I am wondering if a hash would make sense here.
 
@@ -62,7 +64,7 @@ Demonstrate:
 - Openness to considering different approaches
 
 # Once you get your first job
-*Talk to people*. Schedule 1x1’s with IC’s, managers, anyone who you might work with or has a role you’d like to learn about. Most people will be happy to chat with you, especially about themselves.
+**Talk to people**. Schedule 1x1’s with IC’s, managers, anyone who you might work with or has a role you’d like to learn about. Most people will be happy to chat with you, especially about themselves.
 
 Ask for help when needed, but demonstrate attempts to solve problems independently. 
 
@@ -107,7 +109,7 @@ Public company:
 ## Pay 
 Advice differs here, but I would not care too much about pay so long as you can pay your expenses. In the long run, finding a role that you are good at and enjoy will maximize your earnings, and enjoyment. That said:
 
-*The expected value of stock grants from startups[^1] is zero.* Recruiters etc will try to convince you otherwise. This doesn’t mean you shouldn’t work for startups, but the potential of cash-in from startup stock should not be a factor[^2].
+**The expected value of stock grants from startups[^2] is zero.** Recruiters etc will try to convince you otherwise. This doesn’t mean you shouldn’t work for startups, but the potential of cash-in from startup stock should not be a factor[^3].
 
 # Things to read
 [HackerNews](https://news.ycombinator.com) is the biggest forum of software engineers. Discussions can be dogmatic but are often pretty good. There are job postings once a month as well. As with any forum, there are plenty of posters who are loudly and confidently wrong.
@@ -117,9 +119,10 @@ Advice differs here, but I would not care too much about pay so long as you can 
 [Patio11](https://twitter.com/patio11) is a good follow on Twitter and HackerNews. He goes into the weeds on fintech, but also has good content on software careers. 
 
 [Money Stuff](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine) is a great column about business, finance, and tech. You can get the email newsletter for free.
-      
-[^1]: Specifically, non-public companies, whose stock does not trade on stock exchanges.
-[^2]: The exception being giant “startups” that actually make money, e.g. Stripe as of Feb 1, 2023. But even then the timing of when you can sell your shares can be very uncertain.
+
+[^1]: This is possibly also the case for senior engineers.
+[^2]: Specifically, non-public companies, whose stock does not trade on stock exchanges.
+[^3]: The exception being giant “startups” that actually make money, e.g. Stripe as of Feb 1, 2023. But even then the timing of when you can sell your shares can be very uncertain.
 
 
 
