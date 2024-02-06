@@ -25,9 +25,9 @@ The first job is often the most difficult one to get. Be persistent, don’t get
 In your resume and interviews, your goal is to convey enthusiasm, willingness to learn, and humility. Don’t try to compensate for the fact you don’t have any experience. That is fine, you have to start somewhere!
 
 ## Getting interviews
-The first filtering step is a filter on resumes. This will often either be automated or done by someone non-technical. There will typically be an intro call with a non-technical recruiter.
+The first filtering step is a filter on resumes. This will often either be automated or done by someone non-technical.
 
-Resume referrals get you past this first filter. **Talk to people**. Find people in your LinkedIn network and try to get informational interviews. Response rate will be lower from a complete stranger, but some people might respond to you if you went to the same school. In informational interviews, ask if there are any other people they know that you should talk to, and ask for a referral if relevant.
+Resume referrals can get you past this first filter. **Talk to people**. Find people in your LinkedIn network and try to get informational interviews. Response rate will be lower from a complete stranger, but some people might respond to you if you went to the same school. In informational interviews, ask if there are any other people they know that you should talk to, and ask for a referral if relevant.
 
 In general, people are more willing to take these calls than many junior candidates assume. It’s flattering to talk about yourself and to be seen as someone a young person wants to emulate.
 
@@ -43,11 +43,15 @@ Add: LinkedIn, which should be up to date and mirror content in your resume.
 A junior candidate resume should not exceed one page in length.
 
 ## Interviews
-There are 3 basic formats that most companies use for SWE’s (software engineers). Some domain specific disciplines will have their own variations. Look at Glassdoor / Blind / Google to get examples of what interview formats companies do. 
+There are 4 basic formats that most companies use for SWE’s (software engineers) interviews. Some domain specific disciplines will have their own variations. Look at Glassdoor / Blind / Google to get examples of what interview formats companies do. 
 
 In Q/A formats (ie non-coding screens), the key is to be responsive to questions. Demonstrate thoughtfulness and an ability to consider tradeoffs. Be transparent when you don’t know something. Avoid buzzwords / mentioning fancy technologies if you can’t dive into details about why they are useful.
 
+
 The generic interview formats are:
+
+### Initial recruiter call
+This is typically an intro call with a non-technical recruiter. This is mostly to ensure that you are interested in the role, and to set expectations about what the interview process is like. Candidates are not typically filtered by this call.
 
 ### Coding screen
 **The most important interview format for jr engineers[^2] is the coding screen**. Practice them! I use HackerRank when I interview, but there are many similar platforms. *Put more time into practicing these than the time practicing all other interview formats combined.*
