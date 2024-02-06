@@ -11,6 +11,8 @@ I've made various attempts at replicating the functionality, but have landed on 
 
 Using two labels it creates ("hidden", and "surfaced"), it hides emails in the archive temporarily, and resurfaces them once a day. The pesky unread icon still shows up in the labels tab, but it's the closest I've come to replicating my beloved Inbox setup.
 
+It's deployed in [Google Apps Script](https://www.google.com/script/start/), a sneakily useful scripting environment (which also has the look and feel of a niche, beloved Google product surviving via benign neglect).
+
 Here's the code, also [available in Github](https://github.com/tombedor/inbox/tree/main):
 
 ```
