@@ -10,3 +10,114 @@ Like many others, I still mourn the loss of [Google Inbox](https://en.wikipedia.
 I've made various attempts at replicating the functionality, but have landed on a relatively [simple script](https://github.com/tombedor/inbox). 
 
 Using two labels it creates ("hidden", and "surfaced"), it hides emails in the archive temporarily, and resurfaces them once a day. The pesky unread icon still shows up in the labels tab, but it's the closest I've come to replicating my beloved Inbox setup.
+
+Here's the code, also [available in Github](https://github.com/tombedor/inbox/tree/main):
+
+```
+HIDDEN_LABEL = GmailApp.getUserLabelByName('hidden')
+SURFACED_LABEL = GmailApp.getUserLabelByName('surfaced')
+
+function main() {
+  hideUnimportantEmails()
+  cleanupLabels()
+  markOldUnimportantEmailsRead()
+}
+
+/*
+ * Hide unimportant emails from the main inbox.
+ * Fetches new incoming emails from Updates, applies 'hidden' label, and removes from inbox.
+ */
+function hideUnimportantEmails() {
+  // Find unprocessed emails
+  var query = 'label:Updates AND label:Inbox AND -label:hidden AND -label:surfaced';
+
+  // Fetch threads that match the search query (sanity limit of 500)
+  var threads = GmailApp.search(query, 0, 500);
+
+  if (threads.length > 0) {
+    // Apply 'hidden' label to each thread
+    HIDDEN_LABEL.addToThreads(threads);
+
+    // Archive each thread
+    GmailApp.moveThreadsToArchive(threads);
+  }
+}
+
+/*
+ * Fetches hidden emails, labels as "surfaced" so we know they should be in inbox,
+ *  move to inbox, remove hidden label.
+ * 
+ * Should be run on cadence unimportant emails should be surfaced (ie 1-2x a day)
+ */
+function surfaceUnimportantEmails() {
+  var threads = getThreads('label:hidden AND label:Updates AND -in:inbox');
+
+  if (threads.length > 0) {
+    // Remove 'hidden' label from each thread
+    HIDDEN_LABEL.removeFromThreads(threads);
+
+    // Apply 'surfaced' label to each thread
+    SURFACED_LABEL.addToThreads(threads);
+
+    // Move each thread back to the Inbox
+    GmailApp.moveThreadsToInbox(threads);
+  }
+}
+
+// Remove surfaced label from emails that have been reviewed (since they are not in inbox)
+function cleanupLabels() {
+  var threads = getThreads('label:surfaced AND -label:Inbox')
+  if (threads.length > 0) {
+    SURFACED_LABEL.removeFromThreads(threads)
+    GmailApp.markThreadsRead(threads)
+  }
+
+  // archive surfaced emails that have been read
+  var threads = getThreads('label:surfaced AND is:read')
+  if (threads.length > 0) {
+    SURFACED_LABEL.removeFromThreads(threads)
+    GmailApp.moveThreadsToArchive(threads)
+  }
+
+  // archive hidden emails that have been read
+  threads = getThreads('label:hidden AND is:read')
+  if (threads.length > 0) {
+    HIDDEN_LABEL.removeFromThreads(threads)
+    GmailApp.moveThreadsToArchive(threads)
+  }
+}
+
+/*
+ * Prevent messy unread emails from piling up in the inbox.
+ */
+function markOldUnimportantEmailsRead() {
+  var threads = getThreads('(label:Promotions OR label:Updates) AND -label:hidden AND -label:surfaced AND is:unread AND older_than:7d')
+  GmailApp.markThreadsRead(threads)
+
+  // Gmail will not return spam and non-spam threads in the same query
+  var threads = getThreads('in:spam AND is:unread')
+  GmailApp.markThreadsRead(threads)
+}
+
+/*
+ *
+ *  Helper functions
+ * 
+ */
+
+function getThreads(query) {
+  // Limit 100 for sanity check
+  Logger.log("SEARCHING: " + query)
+  var threads = GmailApp.search(query, 0, 100)
+  Logger.log("Found " + threads.length + " threads")
+  return threads
+}
+
+/*
+ * Run once to set up all relevant labels
+ */
+function setup() {
+  GmailApp.createLabel('hidden');
+  GmailApp.createLabel('surfaced');
+}
+```
