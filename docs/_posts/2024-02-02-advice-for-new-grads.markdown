@@ -11,6 +11,14 @@ As is the case with lots of tech writing, my advice will be skewed towards worki
 
 Other engineers with similar levels of experience as mine will disagree with some or all of it.
 
+# The software jobs market
+The intention of this post is to be evergreen. The tech[^1] jobs market is more volitile than the rest of the economy, with higher highs and lower lows. 
+
+If the market is low, I have confidence it will come back. The tech industry remains an excellent one to build an interesting and lucrative career, despite {looming, much discussed threat}
+
+If the market is currently hot, be aware that it will come back to earth. Things that don't make sense will make a *lot* of money, but many of them will fall apart.
+
+
 # Getting your first job
 The first job is often the most difficult one to get. Be persistent, don’t get discouraged. This remains a lucrative and interesting field.
 
@@ -42,7 +50,7 @@ In Q/A formats (ie non-coding screens), the key is to be responsive to questions
 The generic interview formats are:
 
 ### Coding screen
-**The most important interview format for jr engineers[^1] is the coding screen**. Practice them! I use HackerRank when I interview, but there are many similar platforms. *Put more time into practicing these than the time practicing all other interview formats combined.*
+**The most important interview format for jr engineers[^2] is the coding screen**. Practice them! I use HackerRank when I interview, but there are many similar platforms. *Put more time into practicing these than the time practicing all other interview formats combined.*
 
 When practicing, work on not only solving the problem, but communicating what you are thinking about. It is ok to stop and think, but when pausing talk about what you are puzzling through, e.g. I am wondering if a hash would make sense here.
 
@@ -109,7 +117,7 @@ Public company:
 ## Pay 
 Advice differs here, but I would not care too much about pay so long as you can pay your expenses. In the long run, finding a role that you are good at and enjoy will maximize your earnings, and enjoyment. That said:
 
-**The expected value of stock grants from startups[^2] is zero.** Recruiters etc will try to convince you otherwise. This doesn’t mean you shouldn’t work for startups, but the potential of cash-in from startup stock should not be a factor[^3].
+**The expected value of stock grants from startups[^3] is zero.** Recruiters etc will try to convince you otherwise. This doesn’t mean you shouldn’t work for startups, but the potential of cash-in from startup stock should not be a factor[^4].
 
 # Things to read
 [HackerNews](https://news.ycombinator.com) is the biggest forum of software engineers. Discussions can be dogmatic but are often pretty good. There are job postings once a month as well. As with any forum, there are plenty of posters who are loudly and confidently wrong.
@@ -120,9 +128,10 @@ Advice differs here, but I would not care too much about pay so long as you can 
 
 [Money Stuff](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine) is a great column about business, finance, and tech. You can get the email newsletter for free.
 
-[^1]: This is possibly also the case for senior engineers.
-[^2]: Specifically, non-public companies, whose stock does not trade on stock exchanges.
-[^3]: The exception being giant “startups” that actually make money, e.g. Stripe as of Feb 1, 2023. But even then the timing of when you can sell your shares can be very uncertain.
+[^1]: There's an evergreen, tedious debate on what constitutes a "tech" company. My definition is "A company whose primary products are software or hardware, OR a company seeking to disrupt a traditional field with software." E.g. LegalZoom is a legal services company, but I consider them a tech company,
+[^2]: This is possibly also the case for senior engineers.
+[^3]: Specifically, non-public companies, whose stock does not trade on stock exchanges.
+[^4]: The exception being giant “startups” that actually make money, e.g. Stripe as of Feb 1, 2023. But even then the timing of when you can sell your shares can be very uncertain.
 
 
 
