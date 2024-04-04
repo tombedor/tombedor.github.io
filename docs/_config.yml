@@ -21,7 +21,7 @@
 title: Bedor Bytes
 # email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Experiments etc about AI and other stuff.
+  Experiments about AI and other stuff.
 
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "tombedor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
