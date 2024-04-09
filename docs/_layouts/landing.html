@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Welcome to YouBot</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #32cd32;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        header h1,
+        main h2,
+        main p,
+        footer {
+            text-align: center;
+        }
+
+        form {
+            background-color: #222222;
+            padding: 20px;
+            margin: 20px auto;
+            width: fit-content;
+            border-radius: 15px;
+            border: 2px solid #32cd32;
+        }
+
+        input[type='submit'] {
+            background-color: #32cd32;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 4px;
+            border: none;
+            margin-top: 10px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 5px;
+            background-color: #222222;
+            font-size: 0.875em;
+            border-top: 2px solid #32cd32;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to YouBot</h1>
+    </header>
+    <main>
+        <section id="about">
+            <!-- Insert your 1-2 paragraph description here -->
+            <p>YouBot is an AI personal assistant.</p>
+            <p>I use it as an interactive journal and tutor, but you can use it for whatever you want!</p>
+            <p>YouBot will retain memory of your conversations with it,</p>
+            <p>but will not share information with other users.</p></p>
+            <p>You can chat with YouBot on SMS, WhatsApp, or Discord.</p>
+            <p>YouBot is in an experimental stage, and free to use.</p>
+        </section>
+        <section id="join">
+            <h2>Sign up</h2>
+            <!-- Formspree form for capturing name and phone
+number -->
+            <form id="contactForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                <label for="discord">Discord username:</label><br>
+                <input type="text" id="discord" name="discord"><br>
+                <input type="submit" value="Join Now">
+                <p id="formMessage" hidden="true"></p>
+            </form>
+
+            <script>
+                document.getElementById('contactForm').addEventListener('submit', function (event) {
+                    event.preventDefault();
+
+                    fetch('https://formspree.io/f/{your_form_id}', {
+                        method: 'POST',
+                        body: new FormData(event.target)
+                    })
+                        .then(function () {
+                            document.getElementById('formMessage').textContent =
+                                'Your information has been received! Expect a text message soon!';
+                            document.getElementById('formMessage').removeAttribute('hidden');
+                        })
+                        .catch(function (error) {
+                            document.getElementById('formMessage').textContent =
+                                'Oops, something went wrong. Please try again.';
+                            document.getElementById('formMessage').removeAttribute('hidden');
+                        });
+                });
+            </script>
+            <!-- Opt-out text -->
+            <p>You can opt out and request data deletion at any time.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 YouBot</p>
+    </footer>
+</body>
+
+</html>
