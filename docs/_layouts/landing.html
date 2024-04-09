@@ -18,6 +18,14 @@
             text-align: center;
         }
 
+        #formMessage {
+            height: 20px;
+            /* Adjust this value based on the size of your messages. */
+            width: 130;
+            transition: opacity 0.5s ease-in-out;
+            /* Optional: Smooth visibility transition */
+        }
+
         form {
             background-color: #222222;
             padding: 20px;
@@ -78,8 +86,9 @@ number -->
                 <input type="text" id="discord_username" name="discord_username"><br>
                 <input type='text' name='url' style='display: none;'> <!-- Honeypot field -->
                 <input type="submit" value="Join Now">
-                <p id="formMessage" hidden="true"></p>
             </form>
+
+            <p id="formMessage" style="opacity: 0;"></p>
 
             <script>
                 document.getElementById('contactForm').addEventListener('submit'
@@ -101,19 +110,19 @@ number -->
                             body: JSON.stringify(jsonObject)
                         })
                             .then(function () {
-                                document.getElementById('formMessage').textContent =
-                                    'Your information has been received! Expect a text message soon!';
-                                document.getElementById('formMessage').removeAttribute('hidden');
+                                document.getElementById('formMessage').innerHTML =
+                                    'Your information has been received! <br> Expect a text message soon!';
+                                document.getElementById('formMessage').style.opacity = '1';
                             })
                             .catch(function (error) {
                                 document.getElementById('formMessage').textContent =
                                     'Oops, something went wrong. Please try again.';
-                                document.getElementById('formMessage').removeAttribute('hidden');
+                                document.getElementById('formMessage').style.opacity = '1';
                             });
                     });
             </script>
             <!-- Opt-out text -->
-            <p>You can opt out and request data deletion at any time.</p>
+            <p id="optOut">You can opt out and request data deletion at any time.</p>
         </section>
     </main>
     <footer>
