@@ -23,8 +23,8 @@ title: Bedor Bytes
 description: >- # this means to ignore newlines until "baseurl:"
   Experiments about AI and other stuff.
 
-# baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "tombedor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tombedor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: 
 github_username:  tombedor
 
@@ -32,6 +32,10 @@ github_username:  tombedor
 theme: minima
 plugins:
   - jekyll-feed
+
+# Jekyll 4 and GitHub Pages compatibility
+markdown: kramdown
+highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
